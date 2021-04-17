@@ -52,6 +52,6 @@ bin 程序带 bootloader，大概有62kb
 关于开发中的 0xb8000，这个是开发操作系统中的魔数之一，可以参考这位UP的说明
 https://www.bilibili.com/video/BV18K411w7Z2?p=8 (南京话，很地道)
 
-关于引导程序，涉及到汇编，涉及到程序加电自检启动的过程，并且比较繁琐，暂时跳过。rust的bootloader已经很优秀了，可以抽空学习下里面的实现。
+关于引导程序，涉及到汇编，涉及到程序加电自检启动的过程，并且比较繁琐，暂时跳过。rust的 bootloader [https://github.com/rust-osdev/bootloader]已经很优秀了，可以抽空学习下里面的实现。
 
 (end)
