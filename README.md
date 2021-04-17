@@ -34,3 +34,17 @@ cargo bootimage --verbose -Zbuild-std=core
 cargo xrun
 ```
 进行编译在 qeum上运行，后续会尝试在树莓派运行的可能性。
+
+单纯的hello world 程序编译后的大小如下:
+
+```bash
+drwxr-xr-x  41 wangju  staff   1.3K Apr 18 00:10 .fingerprint
+-rwxr-xr-x   1 wangju  staff    62K Apr 18 00:21 bootimage-kitty-os.bin
+drwxr-xr-x  12 wangju  staff   384B Apr 18 00:10 build
+drwxr-xr-x  74 wangju  staff   2.3K Apr 18 00:14 deps
+drwxr-xr-x   2 wangju  staff    64B Apr 17 23:39 examples
+drwxr-xr-x   9 wangju  staff   288B Apr 18 00:10 incremental
+-rwxr-xr-x   2 wangju  staff    29K Apr 18 00:14 kitty-os
+-rw-r--r--   1 wangju  staff   117B Apr 18 00:13 kitty-os.d
+```
+bin 程序带 bootloader，大概有64kb
