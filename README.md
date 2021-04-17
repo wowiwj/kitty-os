@@ -47,4 +47,4 @@ drwxr-xr-x   9 wangju  staff   288B Apr 18 00:10 incremental
 -rwxr-xr-x   2 wangju  staff    29K Apr 18 00:14 kitty-os
 -rw-r--r--   1 wangju  staff   117B Apr 18 00:13 kitty-os.d
 ```
-bin 程序带 bootloader，大概有64kb
+bin 程序带 bootloader，大概有62kb
